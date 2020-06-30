@@ -1,0 +1,7 @@
+resource
+venv
+__pycache__
+geckodriver.log
+*.conf
+*.ini
+.idea
