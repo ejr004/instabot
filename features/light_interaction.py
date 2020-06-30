@@ -78,10 +78,10 @@ def light_interaction(session, photo_comments, u_followers, f_likers, f_tags):
        # Follow by tag
         session.follow_by_tags(f_tags,
                                amount=50)
-        # unfollow who doesnt follow you
-        # session.unfollow_users(amount=50,
-        #                        nonFollowers=True,
-        #                        style="RANDOM",
-        #                        unfollow_after=42 * 60 * 60,
-        #                        sleep_delay=600)
+        #unfollow who doesnt follow you
+        session.unfollow_users(amount=50,
+                               nonFollowers=True,
+                               style="RANDOM",
+                               unfollow_after=42 * 60 * 60,
+                               sleep_delay=600)
 
