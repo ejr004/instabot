@@ -48,5 +48,5 @@ f_tags = ['#zerowaste',
 
 Run:
 ```
-python mail.py -s settings.ini
+python main.py -s settings.ini
 ```
